@@ -16,24 +16,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/2021/03/07/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>爬虫学习之爬取豆瓣电影</title>
     <url>/2021/03/08/blog2/</url>
     <content><![CDATA[<h2 id="导入第三方库"><a href="#导入第三方库" class="headerlink" title="导入第三方库"></a>导入第三方库</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">import pandas as pd</span><br><span class="line">import requests</span><br><span class="line">import json</span><br></pre></td></tr></table></figure>
@@ -50,7 +32,7 @@
       </tags>
   </entry>
   <entry>
-    <title>blog3</title>
+    <title>爬虫学习之爬取梨视频</title>
     <url>/2021/03/08/blog3/</url>
     <content><![CDATA[<h2 id="导入库"><a href="#导入库" class="headerlink" title="导入库"></a>导入库</h2><h4 id="xpath-selenium"><a href="#xpath-selenium" class="headerlink" title="xpath + selenium"></a>xpath + selenium</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">import requests</span><br><span class="line">from lxml import etree</span><br><span class="line">from selenium import webdriver</span><br></pre></td></tr></table></figure>
 <h2 id="指定url"><a href="#指定url" class="headerlink" title="指定url"></a>指定url</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">url_list &#x3D; []</span><br><span class="line">video_name &#x3D; []</span><br><span class="line">if __name__ &#x3D;&#x3D; &#39;__main__&#39;:</span><br><span class="line">    url &#x3D; &#39;https:&#x2F;&#x2F;www.pearvideo.com&#x2F;category_31&#39;</span><br><span class="line">    headers &#x3D; &#123;</span><br><span class="line">    &#39;User-Agent&#39;: &#39;Mozilla&#x2F;5.0 (Windows NT 6.1; Win64; x64) AppleWebKit&#x2F;537.36 (KHTML, like Gecko) Chrome&#x2F;87.0.4280.141 Safari&#x2F;537.36&#39;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
