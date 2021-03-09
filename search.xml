@@ -32,6 +32,14 @@
       </tags>
   </entry>
   <entry>
+    <title>概率论</title>
+    <url>/2021/03/08/blog4/</url>
+    <content><![CDATA[<h6 id="测试能否在md中预览pdf"><a href="#测试能否在md中预览pdf" class="headerlink" title="测试能否在md中预览pdf"></a>测试能否在md中预览pdf</h6><div class="pdfobject-container" data-target="https://taocodas.github.io/book/概率论.pdf" data-height="500px"></div>]]></content>
+      <tags>
+        <tag>test</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>爬虫学习之爬取豆瓣电影</title>
     <url>/2021/03/08/blog2/</url>
     <content><![CDATA[<h2 id="导入第三方库"><a href="#导入第三方库" class="headerlink" title="导入第三方库"></a>导入第三方库</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">import pandas as pd</span><br><span class="line">import requests</span><br><span class="line">import json</span><br></pre></td></tr></table></figure>
@@ -45,14 +53,6 @@
       </categories>
       <tags>
         <tag>爬虫</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>概率论</title>
-    <url>/2021/03/08/blog4/</url>
-    <content><![CDATA[<h6 id="测试能否在md中预览pdf"><a href="#测试能否在md中预览pdf" class="headerlink" title="测试能否在md中预览pdf"></a>测试能否在md中预览pdf</h6><div class="pdfobject-container" data-target="https://taocodas.github.io/book/概率论.pdf" data-height="500px"></div>]]></content>
-      <tags>
-        <tag>test</tag>
       </tags>
   </entry>
 </search>
